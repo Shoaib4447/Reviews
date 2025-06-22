@@ -36,7 +36,7 @@ const Review = () => {
     return setIndex(checkNumber(randomNumber));
   };
   return (
-    <article className='bg-white py-10 px-15 flex flex-col items-center justify-between gap-2 max-w-md '>
+    <article className='bg-white py-10 px-15 flex flex-col items-center justify-between gap-2 max-w-md rounded-xl shadow-2xl'>
       <div className='relative'>
         <div className='w-32 h-32 bg-blue-500 rounded-full '></div>
         <img
